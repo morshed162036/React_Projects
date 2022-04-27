@@ -1,0 +1,86 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+
+    .top {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 0.5px solid rgb(230, 227, 227);;
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6439ff;
+        }
+       
+    }
+    .center{
+        padding-left: 1rem;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            .title{
+                font-size: .8rem;
+                font-weight: bold;
+                color: #999;
+                margin-top: 1rem;
+                margin-bottom: .5rem;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: .5rem;
+                cursor: pointer;
+                &:hover{
+                    background-color: #ece8ff;
+                }
+                .icon{
+                    font-size: 1.5rem;
+                    color: #7451f8;
+                }
+                span{
+                    font-size: 1rem;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left: .8rem;
+                }
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+        .color_option{
+            width: 2rem;
+            height: 2rem;
+            border-radius: .5rem;
+            border: .1rem solid #7451f8;
+            cursor: pointer;
+            margin: 0 .5rem;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+            &:nth-child(3){
+                background-color: darkblue;
+            }
+        }
+    }
+    // .center ul li{
+    //         display:flex;
+    //         align-items: center;
+    //         padding-top: 1rem;
+    //         span{
+    //             padding-left: 1rem;
+    //         }
+    //     }
+}
