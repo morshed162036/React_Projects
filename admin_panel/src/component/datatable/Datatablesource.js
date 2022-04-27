@@ -1,0 +1,51 @@
+
+export const userRows = [
+  {
+    id: 1,
+    username: "snow",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "active",
+    email: "snow@gmail.com",
+    age: 35,
+  },
+  {
+    id: 2,
+    username: "Jamie Lannister",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "passive",
+    email: "jamie@gmail.com",
+    age: 25,
+  },
+  {
+    id: 3,
+    username: "Lannister",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "passive",
+    email: "Lannister@gmail.com",
+    age: 25,
+  },
+  {
+    id: 4,
+    username: "snowfall",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "active",
+    email: "snowfall@gmail.com",
+    age: 25,
+  },
+  {
+    id: 5,
+    username: "snow lannister",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "passive",
+    email: "jamie@gmail.com",
+    age: 25,
+  },
+  {
+    id: 6,
+    username: "Jamie Lannister",
+    img: "https://www.startech.com.bd/image/cache/catalog/laptop/acer/nitro-5-an515/nitro-5-an515-01-500x500.jpg",
+    status: "passive",
+    email: "jamie@gmail.com",
+    age: 25,
+  },
+];
