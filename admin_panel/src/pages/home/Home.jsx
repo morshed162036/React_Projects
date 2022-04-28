@@ -10,7 +10,7 @@ import Featured from '../../component/featured/Featured';
 import Table from '../../component/table/Table';
 function Home() {
   return (
-    <div className='home'>
+    <div className="home">
       <Sidebar />
       <div className="home_container">
         <Navbar />
@@ -22,16 +22,15 @@ function Home() {
         </div>
         <div className="charts">
           <Featured />
-          <Chart />
+          <Chart title="Last 6 Months (Revenue)" aspect={3/1} />
         </div>
         <div className="listContainer">
           <div className="listTitle">Latest transection</div>
-          <Table/>
+          <Table />
         </div>
       </div>
-
     </div>
-  )
+  );
 }
 
 export default Home
