@@ -3,3 +3,6 @@ extension:[
     
 
 ]
+package:[
+    npm install react-icon,
+]
