@@ -35,16 +35,22 @@ header{
     height: 2rem;
     background: var(--color-primary);
 }
+.header__socials::before {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
 
 /* =================== ME =================== */
 
 .me{
     background: linear-gradient(var(--colour-primary), transparent);
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     position: absolute;
-    left: calc(50% - 7rem);
-    margin-top: 4rem;
+    left: calc(50% - 9.5rem);
+    margin-top: 6rem;
     /* margin-left: 3rem; */
     /* border-radius: 12rem 12rem 0 0; 
     overflow:hidden;
@@ -53,6 +59,9 @@ header{
 }
 .me img{
     align-items: center;
+}
+.me img:hover{
+    cursor: pointer;
 }
 
 /* =================== SCROLE DOWN =================== */
