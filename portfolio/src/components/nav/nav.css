@@ -5,14 +5,24 @@ nav{
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 41%;
-    translate: translatex(-50%);
-    bottom: 2rem;
+    left: 50%;
+   
+    
+    translate: translateX(-50%);
+     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    border-radius: 3rem;
+    justify-content: center;
+    border-radius: 4rem;
     backdrop-filter: blur(15px);
 }
+/* nav ul{
+    list-style: none;
+    text-align: center;
+}*/
+/* nav li{
+    display: inline-block;
+}  */
 
 nav a{
     background: transparent;
@@ -31,3 +41,20 @@ nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+/* ================MEADIA QUERIES (MEDIUM DEVICES)====================  */
+/* @media screen and (max-width: 1024px) {
+    nav {
+    left: calc(35%);
+    }
+} */
+
+/* ================ MEADIA QUERIES (SMALL DEVICES) ==================== */
+/* @media screen and (max-width: 600px) {
+    nav {
+            left: 25%;
+    
+            translate: translate(-50%);
+        }
+
+} */
