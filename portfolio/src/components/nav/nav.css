@@ -5,25 +5,14 @@ nav{
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
-   
-    
+    left: 41%;
     translate: translateX(-50%);
-     bottom: 2rem;
+    bottom: 2rem;
     display: flex;
     gap: 0.8rem;
-    justify-content: center;
     border-radius: 4rem;
     backdrop-filter: blur(15px);
 }
-/* nav ul{
-    list-style: none;
-    text-align: center;
-}*/
-/* nav li{
-    display: inline-block;
-}  */
-
 nav a{
     background: transparent;
     padding: 0.9rem;
@@ -43,18 +32,18 @@ nav a.active{
 }
 
 /* ================MEADIA QUERIES (MEDIUM DEVICES)====================  */
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     nav {
-    left: calc(35%);
+    left: 30%;
     }
-} */
+}
 
 /* ================ MEADIA QUERIES (SMALL DEVICES) ==================== */
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     nav {
-            left: 25%;
+            left: 6%;
+            translate: translateX(-60%);
     
-            translate: translate(-50%);
         }
 
-} */
+}
