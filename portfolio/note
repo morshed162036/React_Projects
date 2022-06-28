@@ -1,9 +1,6 @@
 extension:[
-    ES7+ React/Redux/React-Native snippets v4. by:dsznajder ,
-    
-
-]
+ES7+ React/Redux/React-Native snippets v4. by:dsznajder]
 package:[
-    npm install react-icon,
-    npm install swiper,
-]
+npm install react-icon,
+npm install swiper,
+npm install emailjs-com --save,]
